@@ -1,0 +1,32 @@
+body {
+    background-color: #154148;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+    position: absolute;
+    width: 80%;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+#lockWindows, #openWindows, #restart, #shutdown {
+    font-size: 28px;
+    margin: 1rem 0 1rem 0;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .container {
+        min-height: 24rem;
+    }
+}
