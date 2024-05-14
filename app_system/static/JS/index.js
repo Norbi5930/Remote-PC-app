@@ -17,22 +17,6 @@ document.getElementById("lockWindows").addEventListener("click", function() {
     })
 });
 
-/*
-document.getElementById("openWindows").addEventListener("click", function() {
-    fetch("/open", {
-        method: "POST",
-        headers: {
-            "Content-Type": "application/json"
-        }
-    })
-    .then(response => response.json())
-    .then(data => {
-        if (data.success) {
-            alert("Az eszköz sikeresen felnyitva!")
-        }
-    })
-})
-*/
 
 
 
