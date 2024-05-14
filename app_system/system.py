@@ -3,7 +3,6 @@ import os
 
 from app_system import app
 
-# Windows zárolás
 def lock_windows():
     try:
         os.system("rundll32.exe user32.dll,LockWorkStation")
